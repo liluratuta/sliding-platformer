@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c753ac61a772f404687cc3eb3ebb8919, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  GroundLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  GenerationDistance: 10
+  GroundScanerMaxDistance: 2
+  GroundedDistance: 2
+  ScanOffsetX: 0.25
+  SlantHeightDifference: 0.1
+  HeroMoveSpeed: 5
+  HeroSlideSpeed: 10
+  TimeToSlant: 0.6
